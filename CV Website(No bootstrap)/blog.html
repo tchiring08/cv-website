@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8"  name="description" content="1)How Technology Impacts On Your Daily Life 2)How Technology impacts on Educations 3)How Technology Impacts on Business">
+  <meta name="keywords" content="Blog Education Impact">
+</head>
+<body id="blog">
+	<div class="header">
+    <!--------- Nav Starts ------------>
+ 		<nav class="navigation">
+ 			<div class="navbar-right">
+ 				<a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="mywork.html">My Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+			</div>
+		</nav>
+    <!--------- Nav Ends ------------>
+	</div>
+
+	<style type="text/css">
+		* {
+		  box-sizing: border-box;
+		}
+
+    /* nav-container */
+		.header {
+			padding-bottom: 10px;
+		}
+
+		body {
+		  background-image: url(img/blog-bg.jpg);
+		  background-size: 100% auto;
+		}
+    /*blog-container*/
+		.contain {
+		  display: flex;
+		  justify-content: center;
+		  flex-flow: row wrap;
+		  margin: 50px auto;
+		}
+    /*card-container*/
+		.panel {
+		  display: inline-block;
+		  height: 700px;
+		  width: 160vh;
+		  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.6);
+		  position: relative;
+		}
+    /*card-properties*/
+		.right {
+		  background: white;
+		  overflow: hidden;
+		  overflow-x: hidden;
+		}
+		.right .right-container {
+		  margin: 45px 50px 0px 50px;
+		  height: 100%;
+		}
+    /*blog-paragraph-container properties*/
+		.right .right-container .post-preview {
+		  height: 21%;
+		  margin-bottom: 85px;
+		}
+    /*blog-paragraph heading-3 properties*/
+		.right .right-container .post-preview h3 {
+		  line-height: 1px;
+		}
+    /*blog-paragraph properties*/
+		.right .right-container .post-preview p {
+		  font-size: 12px;
+		  color: grey;
+		}
+		#more {
+			display: none;
+		}
+		.blog-read {
+			font-size: 10px;
+		}
+    /*defualt-display limited*/
+		#more1, #more2, #more3, #more4 {
+			display: none;
+		}
+		/*anchor tag-container*/
+		.blog-read {
+			cursor: pointer;
+      font-size: 15px;
+      color: green;
+		}
+	</style>
+
+
+  <!--------- Blog-container starts ------------>
+	<div class="contain">
+
+  <div class="right panel">
+    <div class="right-container">
+      <!--------- Container for paragraphs ------------>
+      <div class="post-preview">
+        <h3>How Technology Impacts On Your Daily Life</h3>
+        <p>We, as human beings are going through the change of era in an increasing velocity of time, while inventing and advancing in technologies to make the best of our lives. Now technology is converting our lives each second. Innovation and technology development has changed our in both positive and negative ways. In this generation technology is everywhere and its making drastic changes on our daily basis (i.e. on business, on education, on social medias and many more).<br>
+ 
+        	<span id="dots1">...</span>
+        	<span id="more1">It’s not tough to realize just how much of technology we use on an everyday basis. Here are three impact technology have on us in our daily life.<br>
+
+          - Communications: Communications is one of the biggest impact of technology to us. In the past we used to write letters that took days to be delivered while now we receive emails in couple of seconds. Not only that to communicate these days you have alternative option like send message through social media, text them or call them on their cell phone.<br>
+
+
+          - Housing: Majority of household objects (i.e. refrigerator, oven, washing machine, security cameras and so on) are automated, which makes our life easier and safer.<br>
+
+
+          - Impacts of technology on business, educations and social media: Today we do business through social medias, educate ourselves and keep tabs on the latest news all thanks to Internet.<br>
+
+          In all technology has consumed most of our sanity in both negative and positive ways.
+          </span>
+        	<br>
+        	<a class="blog-read" onclick="myFunction1()" id="read1" >Read more</a></p>
+      </div>
+
+      <!--------- Container for paragraphs ------------>
+      <div class="post-preview">
+        <h3>How Technology impacts on Educations</h3>
+        <p>Educations has, is and will always be important for us. In the past, the only way to get information was books. But today due to advancement of technology we can access any information at any time without any problems. The mixture of educations and technology has benefits like:<br>
+
+        	<span id="dots2">...</span>
+        	<span id="more2"> - Having access to information: Now we have access to almost all information on the internet due to technology. All we have to is google search on the web. <br>
+
+          - Online classes: The benefits of online classes are sometime we cannot attend classes due to sickness or emergency and might have missed important content or sometime we might have forgotten content of the course. At that very point online classes help us access through lectures and course materials. <br>
+
+          - Handing Assignment Online: In the past we had to submit our assignment in hardcopies, which basically means printing all those never ending reports that we wrote overnight. But now due to technology advancement we submit our assignment in soft copies through online classroom.<br>
+
+          Educations and technology may not always have positive reactions because after all we are humans and we tend to misuse it. But having said that technology impacts educations in all the better way.
+           </span>
+        	<br>
+        	<a class="blog-read" onclick="myFunction2()" id="read2">Read more</a></p>
+      </div>
+
+      <!--------- Container for paragraphs ------------>
+      <div class="post-preview">
+        <h3>How Technology Impacts on Business</h3>
+        <p>Business depends on technology no matter the size of the enterprises. Technological infrastructure influences the performance and relationships of a business. Business depends on technology for:<br>
+
+        	<span id="dots3">...</span>
+        	<span id="more3">A• Communications with customers: Customers are the first and foremost things to any business. Technology helps them communicate with customers through social media (i.e. skypes, face-book, face calling) and emails. Customers contact business through their websites. So business should have fast loading and responsive website.<br> 
+
+          - Operations efficiency: Technology helps businesses to keep track of its resources such as physical space. Not only that it helps to records to any transactions that happens in the company. <br>
+
+          - Securing Sensitive: Company executive can create secure environments through latest technology for maintaining sensitive business content. <br>
+
+          - Research: In today generations everywhere you look there is competitions and to keep up with it every company should be able to research new opportunities to step ahead of its competition. The internet allows business to know about new ventures and markets.<br>
+
+            Business are dependent on technology. 
+            </span><br>
+        	<a class="blog-read" onclick="myFunction3()" id="read3">Read more</a>
+        </p>
+      </div>
+
+      <!--------- Container for paragraphs ------------>
+      <div class="post-preview">
+        <h3>How Technology Impact on Social Media</h3>
+        <p>Social Media develops with Technology.
+        	<span id="dots4">...</span>
+        	<span id="more4"> Architecto alias a voluptatem, ad nihil. Possimus doloremque cumque ipsum aut tempora ab voluptas laboriosam?</span>
+        	<br>
+        	<a class="blog-read" onclick="myFunction4()" id="read4">Read more</a></p>
+      </div>
+
+    </div>
+  </div>
+</div>  
+<!--------- Blog-container Ends ------------>
+
+
+</body>
+
+<script type="text/javascript">
+function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText1 = document.getElementById("more1");
+  var linkText1 = document.getElementById("read1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    linkText1.innerHTML = "Read more"; 
+    moreText1.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    linkText1.innerHTML = "Read less"; 
+    moreText1.style.display = "inline";
+  }
+}
+function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var linkText2 = document.getElementById("read2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    linkText2.innerHTML = "Read more"; 
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    linkText2.innerHTML = "Read less"; 
+    moreText2.style.display = "inline";
+  }
+}
+function myFunction3() {
+  var dots3 = document.getElementById("dots3");
+  var moreText3 = document.getElementById("more3");
+  var linkText3 = document.getElementById("read3");
+
+  if (dots3.style.display === "none") {
+    dots3.style.display = "inline";
+    linkText3.innerHTML = "Read more"; 
+    moreText3.style.display = "none";
+  } else {
+    dots3.style.display = "none";
+    linkText3.innerHTML = "Read less"; 
+    moreText3.style.display = "inline";
+  }
+}
+function myFunction4() {
+  var dots4 = document.getElementById("dots4");
+  var moreText4 = document.getElementById("more4");
+  var linkText4 = document.getElementById("read4");
+
+  if (dots4.style.display === "none") {
+    dots4.style.display = "inline";
+    linkText4.innerHTML = "Read more"; 
+    moreText4.style.display = "none";
+  } else {
+    dots4.style.display = "none";
+    linkText4.innerHTML = "Read less"; 
+    moreText4.style.display = "inline";
+  }
+}
+</script>
+</html>
